@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navigate, Outlet, Route, Routes, useLocation } from 'react-router-dom';
+import { Outlet } from 'react-router-dom';
 import { Box, Container, CssBaseline } from '@mui/material';
 import { useTheme, ThemeProvider } from '@mui/material/styles';
 
