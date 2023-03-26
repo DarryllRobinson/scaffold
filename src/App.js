@@ -13,8 +13,8 @@ import SignUp from './components/navigation/SignUp';
 import ErrorPage from './components/navigation/ErrorPage';
 
 // Define theme settings
-const light = { palette: { mode: 'light' } };
-const dark = { palette: { mode: 'dark' } };
+const light = { palette: { mode: 'light', board: 'purple' } };
+const dark = { palette: { mode: 'dark', board: 'yellow' } };
 
 export default function App() {
   // Theme state set up
